@@ -5,11 +5,11 @@ public class MConSignos {
             System.out.println("Ingrese el tamaño de la letra M que desea imprimir: ");
             int tam = sc.nextInt();
                 for (int i = 0; i < tam; i++) {
-                    System.out.print("* ");
+                    System.out.print("+ ");
                         for (int j = 0; j < tam; j++) {
                             if (i <= ((tam-1)/2)) {
                                 if (i == j || i + j == tam - 1) {
-                                    System.out.print("* ");
+                                    System.out.print("+ ");
                                 } else {
                                     System.out.print("  ");
                                 }
@@ -18,7 +18,7 @@ public class MConSignos {
                             }
                         }
 
-                    System.out.println("* ");
+                    System.out.println("+ ");
                 }
             sc.close();
         }
