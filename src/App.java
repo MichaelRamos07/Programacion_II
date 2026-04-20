@@ -1,5 +1,7 @@
+
 public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, maik.07");
+    public static void main(String[] args) {
+
+        MConSignos.LaM(args);
     }
 }
